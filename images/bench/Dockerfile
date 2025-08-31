@@ -2,8 +2,8 @@ FROM debian:bookworm-slim AS bench
 
 LABEL author=frappé
 
-ARG GIT_REPO=https://github.com/frappe/bench.git
-ARG GIT_BRANCH=v5.x
+ARG GIT_REPO=https://github.com/Nightraint/frappe
+ARG GIT_BRANCH=develop
 
 RUN apt-get update \
     && DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y \
