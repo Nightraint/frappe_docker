@@ -13,7 +13,7 @@ variable NODE_VERSION {
 }
 
 variable "FRAPPE_VERSION" {
-    default = "develop"
+    default = "version-16"
 }
 
 variable "ERPNEXT_VERSION" {
@@ -21,7 +21,7 @@ variable "ERPNEXT_VERSION" {
 }
 
 variable "FRAPPE_REPO" {
-    default = "https://github.com/frappe/frappe"
+    default = "https://github.com/Nightraint/frappe"
 }
 
 variable "ERPNEXT_REPO" {

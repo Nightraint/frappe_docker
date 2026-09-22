@@ -4,7 +4,7 @@ ARG FRAPPE_IMAGE_PREFIX=frappe
 FROM ${FRAPPE_IMAGE_PREFIX}/build:${FRAPPE_BRANCH} AS builder
 
 ARG FRAPPE_BRANCH=version-16
-ARG FRAPPE_PATH=https://github.com/frappe/frappe
+ARG FRAPPE_PATH=https://github.com/Nightraint/frappe
 ARG CACHE_BUST=""
 
 USER frappe

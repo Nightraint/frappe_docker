@@ -122,7 +122,7 @@ RUN apt-get update \
 USER frappe
 
 ARG FRAPPE_BRANCH=version-16
-ARG FRAPPE_PATH=https://github.com/frappe/frappe
+ARG FRAPPE_PATH=https://github.com/Nightraint/frappe
 ARG CACHE_BUST=""
 
 RUN --mount=type=secret,id=apps_json,target=/opt/frappe/apps.json,uid=1000,gid=1000 \

@@ -42,7 +42,7 @@ on:
       frappe_repo:
         required: false
         type: string
-        default: https://github.com/frappe/frappe
+        default: https://github.com/Nightraint/frappe
         description: "Git URL for the Frappe framework repository"
       builder_repository:
         required: false
